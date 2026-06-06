@@ -1,7 +1,7 @@
 ---
 title: 'Wybielanie a licówki — co najpierw i dlaczego'
 description: 'Wybielać przed licówkami czy po? Dlaczego kolejność ma znaczenie, jak wybielanie ustala docelowy kolor i dlaczego licówek/koron nie da się wybielić. Praktyczny przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-06-01
+pubDate: 2026-05-24
 category: wybielanie
 tags: [wybielanie, licowki, kolejnosc, kolor]
 draft: false

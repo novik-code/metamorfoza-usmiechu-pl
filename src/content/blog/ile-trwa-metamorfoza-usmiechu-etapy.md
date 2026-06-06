@@ -1,7 +1,7 @@
 ---
 title: 'Ile trwa metamorfoza uśmiechu? Etapy krok po kroku'
 description: 'Ile trwa metamorfoza uśmiechu — od konsultacji i projektu (DSD), przez wybielanie i licówki, po finalne dopasowanie. Realny harmonogram i co wpływa na czas. Przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-05-20
+pubDate: 2026-05-12
 category: metamorfozy
 tags: [metamorfoza, etapy, czas, dsd, plan-leczenia]
 draft: false

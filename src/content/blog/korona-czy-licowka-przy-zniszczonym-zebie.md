@@ -1,7 +1,7 @@
 ---
 title: 'Korona czy licówka przy zniszczonym zębie estetycznym?'
 description: 'Korona pełnoceramiczna czy licówka — kiedy która przy zębie w strefie uśmiechu. Stopień zniszczenia, ząb po leczeniu kanałowym, oszczędność tkanek, trwałość. Przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-06-04
+pubDate: 2026-05-28
 category: korony-protetyka
 tags: [korona, licowka, protetyka, wybor, estetyka]
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: 'Licówki porcelanowe czy kompozytowe — jak wybrać?'
 description: 'Licówki porcelanowe vs kompozytowe — różnice w trwałości, estetyce, cenie, liczbie wizyt i naprawie. Którą opcję wybrać i dla kogo lepsza. Przewodnik dr Marcina Nowosielskiego, M.Sc.'
-pubDate: 2026-05-24
+pubDate: 2026-05-16
 category: licowki
 tags: [licowki, porcelana, kompozyt, porownanie]
 draft: false

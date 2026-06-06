@@ -1,7 +1,7 @@
 ---
 title: 'Czy licówki niszczą zęby? Mity i fakty'
 description: 'Czy licówki niszczą zęby, czy „muszą” być na całe życie, czy to bardzo boli — najczęstsze mity o licówkach skonfrontowane z faktami. Oszczędność tkanek, odwracalność, trwałość. Przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-05-28
+pubDate: 2026-05-20
 category: pytania-i-watpliwosci
 tags: [licowki, mity, obawy, oszczednosc-tkanek]
 draft: false
