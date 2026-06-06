@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="O autorze — dr Marcin Nowosielski, M.Sc. RWTH Aachen"
+  description="Dr Marcin Nowosielski — lekarz dentysta, M.Sc. RWTH Aachen, autor książki „Własny gabinet” (Czelej 2024). Stomatologia estetyczna: licówki, projekt uśmiechu (DSD), metamorfozy. Leczenie w klinice Mikrostomart."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">O autorze</p>
+      <h1>{site.author.honorificPrefix} {site.author.name}, {site.author.honorificSuffix}</h1>
+      <p class="lead">
+        Lekarz dentysta, <strong>M.Sc. RWTH Aachen</strong> — autor i redaktor merytoryczny
+        tego przewodnika o metamorfozie uśmiechu.
+      </p>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>Kwalifikacje i doświadczenie</h2>
+    <ul>
+      <li><strong>M.Sc. RWTH Aachen</strong> (2021, z wyróżnieniem) — jeden z nielicznych w Polsce z tym tytułem,</li>
+      <li><strong>stomatologia estetyczna</strong> — licówki, korony pełnoceramiczne, projektowanie uśmiechu (DSD),</li>
+      <li>wykładowca <strong>LA&amp;HA Symposium</strong> (Słowenia 2019, 2023; Polska 2022),</li>
+      <li>autor książki <em>„Własny gabinet"</em> (Czelej 2024),</li>
+      <li>biegła znajomość <strong>niemieckiego i angielskiego</strong> (pacjenci zagraniczni).</li>
+    </ul>
+
+    <h2>Podejście do estetyki</h2>
+    <p>
+      Najpierw <strong>projekt uśmiechu</strong> i mock-up — efekt akceptujesz, zanim
+      cokolwiek będzie nieodwracalne. Priorytetem jest <strong>naturalność</strong>
+      (harmonia z twarzą, nie „sztuczna biel") oraz <strong>oszczędność tkanek</strong> —
+      mniej inwazyjne rozwiązanie, jeśli pozwala osiągnąć cel.
+    </p>
+
+    <h2>Gdzie prowadzę leczenie</h2>
+    <p>
+      Konsultacje i leczenie estetyczne prowadzę w klinice
+      <a href={site.clinic.url} rel="noopener">Mikrostomart</a> w Opolu — z pełnym zapleczem
+      (skaner cyfrowy, mikroskop, DSD). <strong>Przyjmuję pacjentów z całej Polski</strong>;
+      wstępną konsultację można rozpocząć, przesyłając zdjęcie uśmiechu.
+    </p>
+
+    <h2>Więcej</h2>
+    <ul>
+      <li><a href="https://nowosielski.pl" rel="noopener">Blog osobisty — nowosielski.pl</a></li>
+      <li><a href="https://all-on-x.pl" rel="noopener">All-on-4 / All-on-6 — stałe zęby na implantach</a></li>
+      <li><a href="https://implantologia.opole.pl" rel="noopener">Implantologia — przewodnik</a></li>
+      <li><a href="https://czelej.com.pl/sklep/wlasny-gabinet-poradnik/" rel="noopener">Książka „Własny gabinet"</a></li>
+    </ul>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Umów bezpłatną konsultację</h2>
+      <p>
+        Chcesz zmienić swój uśmiech? Prześlij zdjęcie lub umów wizytę — przygotuję
+        projekt i plan metamorfozy z wariantami i kosztem.
+      </p>
+      <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Umów konsultację w Mikrostomart →</a>
+    </div>
+  </section>
+</BaseLayout>

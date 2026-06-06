@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Cennik metamorfozy uśmiechu — licówki, korony, wybielanie"
+  description="Ile kosztuje metamorfoza uśmiechu — od czego zależy cena licówek (porcelana vs kompozyt), koron, wybielania i pełnego makeoveru. Orientacyjne widełki + jak uzyskać wycenę. Przewodnik dr Nowosielskiego, M.Sc."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Przewodnik · cena i koszt</p>
+      <h1>Cennik metamorfozy uśmiechu — od czego zależy koszt</h1>
+      <p class="lead">
+        Koszt metamorfozy zależy od <strong>zakresu</strong> (ile zębów), <strong>metod</strong>
+        (wybielanie, licówki, korony) i <strong>materiałów</strong> (porcelana vs kompozyt).
+        Poniżej orientacyjne widełki i jak uzyskać dokładną wycenę.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Poproś o wycenę →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <div class="callout">
+      <strong>Uwaga:</strong> to <strong>orientacyjne widełki rynkowe</strong> dla Polski,
+      podane informacyjnie. Wiążącą wycenę można podać po badaniu i
+      <a href="/projekt-usmiechu-dsd">projekcie uśmiechu</a>, bo zależy od indywidualnej sytuacji.
+    </div>
+
+    <h2>Orientacyjne widełki</h2>
+    <table>
+      <thead>
+        <tr><th>Zabieg</th><th>Orientacyjnie</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Licówka kompozytowa (1 ząb)</td><td>od ok. 800-1 500 zł</td></tr>
+        <tr><td>Licówka porcelanowa (1 ząb)</td><td>od ok. 1 800-3 000 zł</td></tr>
+        <tr><td>Korona pełnoceramiczna (1 ząb)</td><td>od ok. 1 800-3 000 zł</td></tr>
+        <tr><td>Wybielanie (gabinetowe/nakładkowe)</td><td>od ok. 800-1 800 zł</td></tr>
+        <tr><td>Pełny makeover (8-10 licówek porcelanowych)</td><td>kilkanaście-kilkadziesiąt tys. zł</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Co wpływa na cenę</h2>
+    <ul>
+      <li><strong>liczba zębów</strong> objętych leczeniem,</li>
+      <li><strong>materiał</strong> — <a href="/licowki">porcelana vs kompozyt</a>, rodzaj ceramiki,</li>
+      <li><strong>metody</strong> — samo wybielanie vs licówki vs korony,</li>
+      <li><strong>przygotowanie</strong> — czy potrzebne wcześniejsze leczenie (próchnica, dziąsła, zgryz),</li>
+      <li><strong>projekt uśmiechu (DSD)</strong> i etap mock-upu.</li>
+    </ul>
+
+    <h2>Dlaczego najpierw projekt, potem cena</h2>
+    <p>
+      Dopiero <a href="/projekt-usmiechu-dsd">projekt uśmiechu</a> pokazuje, ile i jakich
+      prac realnie potrzeba, by uzyskać zamierzony efekt. Czasem cel da się osiągnąć
+      <strong>mniej inwazyjnie</strong> (i taniej) niż się wydaje — dobre planowanie chroni
+      tkanki i budżet.
+    </p>
+
+    <h2>Trwałość a koszt w czasie</h2>
+    <p>
+      Licówki porcelanowe służą 10-15+ lat — to <strong>długoterminowa inwestycja</strong>
+      w uśmiech. Tańsze rozwiązania (kompozyt) mogą wymagać częstszej korekty. Wybór
+      zależy od oczekiwań i budżetu.
+    </p>
+
+    <h2>Finansowanie</h2>
+    <p>Możliwe rozłożenie płatności / raty — szczegóły omawiamy na konsultacji.</p>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Chcesz poznać koszt swojej metamorfozy?</h2>
+      <p>
+        Prześlij zdjęcie uśmiechu lub umów wizytę — przygotujemy projekt i
+        <strong>pisemny plan z wyceną</strong> dopasowaną do Twojej sytuacji.
+        Pacjentów przyjmujemy z całej Polski.
+      </p>
+      <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Poproś o wycenę →</a>
+    </div>
+  </section>
+</BaseLayout>

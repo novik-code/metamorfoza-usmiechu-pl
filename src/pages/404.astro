@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Nie znaleziono strony (404)" noindex={true}>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Błąd 404</p>
+      <h1>Tej strony nie ma</h1>
+      <p class="lead">Strona mogła zostać przeniesiona lub nigdy nie istniała pod tym adresem.</p>
+      <div class="hero-cta">
+        <a class="btn-primary" href="/">Strona główna →</a>
+        <a class="btn-outline" href="/metamorfozy">Zobacz metamorfozy</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>Popularne tematy</h2>
+    <ul>
+      <li><a href="/licowki">Licówki</a></li>
+      <li><a href="/wybielanie">Wybielanie zębów</a></li>
+      <li><a href="/projekt-usmiechu-dsd">Projekt uśmiechu (DSD)</a></li>
+      <li><a href="/cennik">Cennik</a></li>
+      <li><a href="/blog">Blog</a></li>
+    </ul>
+  </section>
+</BaseLayout>

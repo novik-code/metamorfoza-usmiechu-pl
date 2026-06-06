@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Projekt uśmiechu (Digital Smile Design) — zobacz efekt przed leczeniem"
+  description="Digital Smile Design (DSD) — cyfrowy projekt uśmiechu i mock-up. Zobacz i zaakceptuj swój nowy uśmiech zanim cokolwiek zaczniemy. Jak działa, co daje, dla kogo. Przewodnik dr Nowosielskiego, M.Sc."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Przewodnik · DSD</p>
+      <h1>Projekt uśmiechu (DSD) — zobacz efekt, zanim zaczniemy</h1>
+      <p class="lead">
+        Digital Smile Design to <strong>cyfrowy projekt Twojego nowego uśmiechu</strong>,
+        osadzony w kontekście całej twarzy. Dzięki <strong>mock-upowi</strong> możesz
+        zobaczyć i poczuć efekt <strong>zanim cokolwiek będzie nieodwracalne</strong>.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Zaprojektuj swój uśmiech →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>Na czym polega DSD</h2>
+    <p>
+      Na podstawie <strong>zdjęć twarzy i uśmiechu</strong> oraz <strong>skanu zębów</strong>
+      powstaje cyfrowy projekt docelowego uśmiechu — z analizą linii uśmiechu, linii
+      pośrodkowej, proporcji i symetrii. Projekt uwzględnia <strong>całą twarz</strong>,
+      nie pojedyncze zęby.
+    </p>
+
+    <h2>Mock-up — uśmiech „na próbę"</h2>
+    <p>
+      Z projektu cyfrowego powstaje <strong>mock-up</strong> — tymczasowy, próbny kształt
+      nałożony na zęby (bez szlifowania). Możesz go <strong>zobaczyć w lustrze, na
+      zdjęciach i ocenić</strong>, a także poprosić o korekty — <strong>zanim</strong>
+      cokolwiek jest ostateczne.
+    </p>
+
+    <h2>Co daje DSD</h2>
+    <ul>
+      <li><strong>Akceptujesz konkretny efekt</strong>, a nie „zaufajmy lekarzowi",</li>
+      <li>lepsza <strong>komunikacja</strong> oczekiwań (widzisz, nie tylko słyszysz),</li>
+      <li><strong>przewidywalność</strong> — wspólny cel z technikiem laboratoryjnym,</li>
+      <li>czasem <strong>mniej leczenia</strong> — np. licówki zamiast koron, albo samo wybielanie i drobna korekta.</li>
+    </ul>
+
+    <div class="callout">
+      <strong>Najważniejsza rozmowa na początku.</strong> DSD przenosi pytanie „jak ma
+      wyglądać Twój uśmiech" na sam początek — zanim zapadną nieodwracalne decyzje.
+      To bezpieczeństwo i współudział pacjenta.
+    </div>
+
+    <h2>Jak przebiega</h2>
+    <ol>
+      <li><strong>Dokumentacja</strong> — zdjęcia twarzy/uśmiechu, skan cyfrowy.</li>
+      <li><strong>Projekt cyfrowy</strong> — kształt, proporcje, kolor, harmonia z twarzą.</li>
+      <li><strong>Mock-up</strong> — przymiarka nowego uśmiechu, korekty.</li>
+      <li><strong>Realizacja</strong> — <a href="/licowki">licówki</a> / korony wg zaakceptowanego projektu.</li>
+    </ol>
+
+    <h2>Dla kogo</h2>
+    <ul>
+      <li>planujących <a href="/licowki">licówki</a> lub <a href="/metamorfozy">metamorfozę uśmiechu</a>,</li>
+      <li>niepewnych efektu — chcących go <strong>zobaczyć przed decyzją</strong>,</li>
+      <li>oczekujących <strong>naturalnego</strong>, dopasowanego do twarzy rezultatu.</li>
+    </ul>
+
+    <h2>Czego DSD nie zastąpi</h2>
+    <p>
+      Projekt to kierunek i wizualizacja — nadal decyduje <strong>diagnostyka</strong>
+      (stan zębów, dziąseł, zgryzu) i doświadczenie lekarza. DSD pomaga dobrze
+      zaplanować, ale nie jest „gwarancją fotomontażu".
+    </p>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Zobaczmy Twój nowy uśmiech</h2>
+      <p>
+        Prześlij zdjęcie uśmiechu lub umów wizytę — przygotujemy projekt i pokażemy,
+        co realnie da się osiągnąć, z planem i kosztem. Pacjentów przyjmujemy z całej Polski.
+      </p>
+      <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Umów bezpłatną konsultację →</a>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Licówki — porcelanowe i kompozytowe, naturalny uśmiech"
+  description="Licówki porcelanowe i kompozytowe — czym się różnią, wskazania, czy trzeba szlifować zęby, trwałość, pielęgnacja i koszt. Naturalny efekt zamiast „sztucznego”. Przewodnik dr Nowosielskiego, M.Sc."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Przewodnik · licówki</p>
+      <h1>Licówki — cienkie nakładki dla pięknego, naturalnego uśmiechu</h1>
+      <p class="lead">
+        Licówki to <strong>cienkie nakładki na przednią powierzchnię zębów</strong>,
+        które korygują kolor, kształt, drobne szpary i nierówności — często
+        <strong>minimalnie ingerując w ząb</strong>.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Bezpłatna konsultacja →</a>
+        <a class="btn-outline" href="/projekt-usmiechu-dsd">Zobacz projekt uśmiechu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>Co korygują licówki</h2>
+    <ul>
+      <li><strong>przebarwienia</strong>, których nie da się już wybielić,</li>
+      <li><strong>szpary</strong> między zębami,</li>
+      <li><strong>starte lub ukruszone</strong> brzegi sieczne,</li>
+      <li><strong>drobne nierówności</strong> ustawienia (bez aparatu),</li>
+      <li><strong>kształt</strong> zębów zbyt krótkich lub nieregularnych.</li>
+    </ul>
+
+    <h2>Porcelanowe vs kompozytowe</h2>
+    <table>
+      <thead>
+        <tr><th>Cecha</th><th>Porcelanowe</th><th>Kompozytowe</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Trwałość</td><td>10-15+ lat</td><td>5-8 lat</td></tr>
+        <tr><td>Estetyka</td><td>Najwyższa (głębia, blask)</td><td>Bardzo dobra</td></tr>
+        <tr><td>Odporność na przebarwienia</td><td>Wysoka</td><td>Niższa</td></tr>
+        <tr><td>Wykonanie</td><td>Laboratorium, kilka wizyt</td><td>Często 1 wizyta</td></tr>
+        <tr><td>Cena</td><td>Wyższa</td><td>Niższa</td></tr>
+        <tr><td>Naprawa</td><td>Wymiana</td><td>Łatwiejsza</td></tr>
+      </tbody>
+    </table>
+    <p>
+      Porcelana to złoty standard estetyki i trwałości; kompozyt bywa dobrym
+      kompromisem cenowym lub rozwiązaniem na mniejsze korekty.
+    </p>
+
+    <h2>Czy trzeba szlifować zęby</h2>
+    <p>
+      Zależy od przypadku. Często wystarcza <strong>minimalne opracowanie</strong>
+      przedniej powierzchni (mniej niż przy koronie), a w wybranych sytuacjach możliwe
+      są licówki <strong>bezpreparacyjne</strong> (no-prep). To, ile trzeba opracować,
+      ustala się indywidualnie — zawsze dążymy do <strong>maksymalnej oszczędności tkanek</strong>.
+    </p>
+
+    <h2>Licówka czy korona?</h2>
+    <p>
+      Przy zębach <strong>w większości zdrowych</strong>, gdy chodzi o estetykę — licówka
+      (mniej inwazyjna). Przy zębach <strong>mocno zniszczonych</strong> (duże ubytki, po
+      leczeniu kanałowym) lepsza bywa <strong>korona pełnoceramiczna</strong>. Dobór omawiamy
+      w ramach <a href="/metamorfozy">planu metamorfozy</a>.
+    </p>
+
+    <h2>Ile zębów</h2>
+    <p>
+      Czasem wystarczy kilka licówek w strefie uśmiechu; przy pełnym makeoverze 8-10
+      górnych (i analogicznie dolnych). Liczbę dobiera się tak, by efekt był
+      <strong>harmonijny</strong> — to wynika z <a href="/projekt-usmiechu-dsd">projektu uśmiechu</a>.
+    </p>
+
+    <h2>Trwałość i pielęgnacja</h2>
+    <ul>
+      <li>porcelana: <strong>10-15 lat i więcej</strong> przy dobrej higienie,</li>
+      <li>zwykła higiena + regularne kontrole,</li>
+      <li>przy bruksizmie — <strong>szyna na noc</strong> chroni licówki,</li>
+      <li>ograniczenie silnie barwiących używek pomaga utrzymać efekt.</li>
+    </ul>
+
+    <h2>Naturalny efekt</h2>
+    <p>
+      Kolor, kształt i długość dobieramy do twarzy — tak, by uśmiech wyglądał
+      <strong>naturalnie</strong>, nie „sztucznie". Pomaga w tym mock-up: widzisz efekt
+      przed ostatecznym wykonaniem.
+    </p>
+
+    <h2>Koszt</h2>
+    <p>Co wpływa na cenę licówek (materiał, liczba) — w <a href="/cennik">cenniku</a>.</p>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Marzysz o równym, jasnym uśmiechu?</h2>
+      <p>
+        Prześlij zdjęcie uśmiechu lub umów wizytę — pokażemy projekt, dobierzemy
+        rodzaj licówek i przedstawimy plan z kosztem. Pacjentów przyjmujemy z całej Polski.
+      </p>
+      <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Umów bezpłatną konsultację →</a>
+    </div>
+  </section>
+</BaseLayout>

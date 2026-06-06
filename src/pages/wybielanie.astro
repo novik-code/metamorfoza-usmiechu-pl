@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Wybielanie zębów — gabinetowe vs nakładkowe, bezpieczeństwo"
+  description="Wybielanie zębów — metoda gabinetowa (lampa) vs nakładkowa domowa pod nadzorem. Skuteczność, bezpieczeństwo, nadwrażliwość, trwałość efektu. Dlaczego najpierw przegląd i higienizacja. Przewodnik dr Nowosielskiego, M.Sc."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Przewodnik · wybielanie</p>
+      <h1>Wybielanie zębów — jaśniejszy uśmiech, bezpiecznie</h1>
+      <p class="lead">
+        Wybielanie to często <strong>pierwszy i najmniej inwazyjny</strong> krok metamorfozy.
+        Wykonane profesjonalnie, na zdrowych zębach, jest <strong>bezpieczne i skuteczne</strong> —
+        a przejściowa nadwrażliwość jest do opanowania.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Bezpłatna konsultacja →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container prose">
+    <h2>Najpierw przegląd i higienizacja</h2>
+    <p>
+      Profesjonalne wybielanie zawsze poprzedza <strong>przegląd</strong> (wykluczenie
+      próchnicy i nieszczelnych wypełnień) oraz <strong>higienizacja</strong> — często
+      po samym oczyszczeniu zęby są już zauważalnie jaśniejsze. To etap, którego nie
+      zapewni „wybielanie na mieście".
+    </p>
+
+    <h2>Metoda gabinetowa</h2>
+    <ul>
+      <li><strong>wyższe stężenie</strong> preparatu, nakładane przez lekarza z zabezpieczeniem dziąseł,</li>
+      <li>efekt <strong>w jednej-dwóch wizytach</strong>, szybki,</li>
+      <li>pełna kontrola procesu — dobre, gdy zależy Ci na szybkim rezultacie.</li>
+    </ul>
+
+    <h2>Metoda nakładkowa (domowa pod nadzorem)</h2>
+    <ul>
+      <li><strong>indywidualne nakładki</strong> na podstawie wycisku/skanu,</li>
+      <li>żel o <strong>niższym stężeniu</strong>, stosowany w domu przez kilka-kilkanaście dni,</li>
+      <li>efekt <strong>stopniowy</strong>, łagodniejszy dla zębów; nakładki zostają do odświeżania.</li>
+    </ul>
+    <p>Najlepsze rezultaty daje często <strong>połączenie</strong> obu metod.</p>
+
+    <h2>Czy to bezpieczne</h2>
+    <p>
+      Tak — <strong>wykonywane profesjonalnie</strong>, na zdrowych zębach. Preparaty na
+      bazie nadtlenku są przebadane i stosowane od lat. Klucz to prawidłowa kwalifikacja,
+      zabezpieczenie dziąseł i odpowiednie stężenie/czas. Ostrożność dotyczy
+      <strong>niekontrolowanych preparatów</strong> z internetu i punktów pozamedycznych.
+    </p>
+
+    <div class="callout">
+      <strong>Nadwrażliwość?</strong> Przejściowa nadwrażliwość na zimno to najczęstszy,
+      zwykle krótkotrwały efekt uboczny. Łagodzi się ją preparatami z fluorem/azotanem
+      potasu i doborem stężenia.
+    </div>
+
+    <h2>Czego wybielanie NIE zrobi</h2>
+    <ul>
+      <li>nie rozjaśni <strong>licówek, koron i wypełnień</strong> (materiały nie reagują — czasem trzeba je potem wymienić, by pasowały kolorem),</li>
+      <li>nie usunie przebarwień <strong>wewnątrzzębowych</strong> tą samą metodą (stosuje się wybielanie wewnętrzne),</li>
+      <li>nie daje efektu „na zawsze" — kolor z czasem przygasa.</li>
+    </ul>
+
+    <h2>Wybielanie a metamorfoza</h2>
+    <p>
+      Często wybielanie ustala docelowy kolor, do którego potem dobiera się
+      <a href="/licowki">licówki</a> czy korony. Dlatego w <a href="/metamorfozy">planie
+      metamorfozy</a> bywa pierwszym krokiem.
+    </p>
+
+    <h2>Jak utrzymać efekt</h2>
+    <ul>
+      <li>ograniczenie barwiących używek, niepalenie,</li>
+      <li>regularna <strong>higienizacja</strong>,</li>
+      <li>okresowe <strong>odświeżanie</strong> żelem w nakładkach.</li>
+    </ul>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Chcesz jaśniejszy, naturalny uśmiech?</h2>
+      <p>
+        Umów konsultację — dobierzemy metodę wybielania pod Twoje zęby i oczekiwania,
+        bezpiecznie i z trwałym efektem. Pacjentów przyjmujemy z całej Polski.
+      </p>
+      <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Umów bezpłatną konsultację →</a>
+    </div>
+  </section>
+</BaseLayout>

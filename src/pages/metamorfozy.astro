@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="Metamorfozy uśmiechu — co realnie da się osiągnąć"
+  description="Metamorfoza uśmiechu — na czym polega, jakimi metodami (licówki, korony, wybielanie, DSD), co realnie można osiągnąć i w jakim czasie. Naturalny efekt zamiast „sztucznego”. Przewodnik dr Nowosielskiego, M.Sc."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Przewodnik · metamorfozy</p>
+      <h1>Metamorfoza uśmiechu — co to jest i co da się osiągnąć</h1>
+      <p class="lead">
+        Metamorfoza uśmiechu (smile makeover) to <strong>kompleksowa zmiana estetyki
+        zębów</strong> — kształtu, koloru, proporcji i harmonii z twarzą — z użyciem
+        kilku metod dobranych do Twojej sytuacji.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Zaprojektuj swój uśmiech →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <figure class="case-figure">
+      <img src="/metamorfoza-usmiechu-case.jpg" alt="Metamorfoza uśmiechu — efekt przed i po" loading="lazy" width="1200" height="675" />
+      <figcaption>Przykładowa metamorfoza — efekt kompleksowego leczenia estetycznego.</figcaption>
+    </figure>
+  </section>
+
+  <section class="container prose">
+    <h2>Co składa się na metamorfozę</h2>
+    <p>
+      Rzadko jest to jedna procedura — najczęściej <strong>przemyślane połączenie</strong>:
+    </p>
+    <ul>
+      <li><strong><a href="/projekt-usmiechu-dsd">Projekt uśmiechu (DSD)</a></strong> — punkt wyjścia: cyfrowy projekt i mock-up,</li>
+      <li><strong><a href="/licowki">Licówki</a></strong> — kształt, kolor, zamknięcie szpar, korekta drobnych nierówności,</li>
+      <li><strong>Korony pełnoceramiczne</strong> — gdy ząb jest mocno zniszczony,</li>
+      <li><strong><a href="/wybielanie">Wybielanie</a></strong> — często pierwszy, najmniej inwazyjny krok,</li>
+      <li>czasem <strong>korekta dziąseł</strong> lub wcześniejsze leczenie (próchnica, zgryz).</li>
+    </ul>
+
+    <h2>Co realnie da się osiągnąć</h2>
+    <ul>
+      <li>jaśniejszy, równy kolor,</li>
+      <li>regularny kształt i proporcje zębów,</li>
+      <li>zamknięcie szpar i drobnych nierówności,</li>
+      <li>odbudowa startych/ukruszonych brzegów,</li>
+      <li>harmonijna linia uśmiechu dopasowana do twarzy.</li>
+    </ul>
+
+    <div class="callout">
+      <strong>Naturalnie, nie „sztucznie".</strong> Cel to uśmiech, który pasuje do Twojej
+      twarzy — a nie identyczne, oślepiająco białe „klocki". Kształt, długość i kolor
+      dobieramy indywidualnie; pomaga w tym <a href="/projekt-usmiechu-dsd">cyfrowy projekt uśmiechu</a>.
+    </div>
+
+    <h2>Jak przebiega — etapy</h2>
+    <ol>
+      <li><strong>Konsultacja i analiza</strong> — zdjęcia, ocena zębów, dziąseł i zgryzu.</li>
+      <li><strong>Projekt uśmiechu (DSD)</strong> — cyfrowa wizualizacja i mock-up do akceptacji.</li>
+      <li><strong>Przygotowanie</strong> — w razie potrzeby leczenie zachowawcze/higienizacja, wybielanie.</li>
+      <li><strong>Realizacja</strong> — licówki / korony wg projektu.</li>
+      <li><strong>Dopasowanie i kontrola</strong> — finalna korekta koloru i kształtu.</li>
+    </ol>
+
+    <h2>Ile to trwa</h2>
+    <p>
+      W zależności od zakresu — od jednej-dwóch wizyt (wybielanie, pojedyncze licówki)
+      po kilka tygodni przy pełnym makeoverze. Najpierw projekt, potem realizacja —
+      dzięki temu efekt jest <strong>przewidywalny</strong>.
+    </p>
+
+    <h2>Od czego zależy efekt</h2>
+    <p>
+      Od stanu wyjściowego (zęby, dziąsła, zgryz), wybranych metod i materiałów.
+      Czasem metamorfozę poprzedza leczenie (np. próchnicy lub stłoczeń). Realny,
+      indywidualny plan przedstawiamy po badaniu — wraz z <a href="/cennik">kosztem</a>.
+    </p>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Zobaczmy Twój nowy uśmiech — zanim cokolwiek zaczniemy</h2>
+      <p>
+        Prześlij zdjęcie uśmiechu lub umów wizytę — przygotujemy projekt i plan
+        metamorfozy z wariantami i kosztem. Pacjentów przyjmujemy z całej Polski.
+      </p>
+      <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Umów bezpłatną konsultację →</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .case-figure { margin: 0; }
+  .case-figure img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 24px rgba(58,39,51,0.12); display: block; }
+  .case-figure figcaption { font-size: 0.8125rem; color: var(--color-muted); text-align: center; margin-top: 0.5rem; font-style: italic; }
+</style>
