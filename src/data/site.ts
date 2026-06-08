@@ -8,7 +8,7 @@ export const site = {
   shortTitle: 'Metamorfoza uśmiechu',
   description:
     'Metamorfoza uśmiechu — kompletny przewodnik: licówki, korony, wybielanie i cyfrowy projekt uśmiechu (DSD). Naturalny, harmonijny nowy uśmiech. Sygnowane przez lek. dent. Marcina Nowosielskiego, M.Sc. RWTH Aachen. Leczenie w klinice Mikrostomart.',
-  ogImage: '/og-default.svg',
+  ogImage: '/og-default.png',
   locale: 'pl-PL',
   author: {
     name: 'Marcin Nowosielski',

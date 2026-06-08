@@ -20,7 +20,7 @@ const { posts, tag } = Astro.props as { posts: Awaited<ReturnType<typeof getColl
 const displayTag = tag.replace(/-/g, ' ');
 ---
 
-<BaseLayout title={`#${displayTag} — artykuły`} description={`Artykuły otagowane #${displayTag} — Metamorfoza uśmiechu`}>
+<BaseLayout noindex={true} title={`#${displayTag} — artykuły`} description={`Artykuły otagowane #${displayTag} — Metamorfoza uśmiechu`}>
   <div class="container content">
     <nav class="breadcrumbs"><a href="/">Start</a> · <a href="/blog">Blog</a> · <span>#{displayTag}</span></nav>
     <header>
