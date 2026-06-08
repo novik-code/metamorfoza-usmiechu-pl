@@ -23,10 +23,23 @@ import { site } from '../data/site';
   </section>
 
   <section class="container">
-    <figure class="case-figure">
-      <img src="/metamorfoza-usmiechu-case.jpg" alt="Metamorfoza uśmiechu — efekt przed i po" loading="lazy" width="1200" height="675" />
-      <figcaption>Przykładowa metamorfoza — efekt kompleksowego leczenia estetycznego.</figcaption>
-    </figure>
+    <h2 class="ba-heading">Przykładowa realizacja — przed i po</h2>
+    <div class="beforeafter">
+      <figure>
+        <span class="ba-label ba-label--before">Przed</span>
+        <img src="/realizacje/metamorfoza-1-przed.webp" alt="Uśmiech przed metamorfozą — starte, przebarwione i nierówne zęby, widoczne ubytki przed leczeniem" loading="lazy" width="920" height="920" />
+      </figure>
+      <figure>
+        <span class="ba-label ba-label--after">Po</span>
+        <img src="/realizacje/metamorfoza-1-po.webp" alt="Uśmiech po metamorfozie — równe, naturalnie białe zęby po kompleksowej odbudowie estetycznej pełnego łuku" loading="lazy" width="920" height="920" />
+      </figure>
+    </div>
+    <p class="ba-caption">
+      Rzeczywista metamorfoza wykonana przez lek. dent. Marcina Nowosielskiego w klinice
+      <a href="https://mikrostomart.pl" rel="noopener">Mikrostomart</a> — kompleksowa odbudowa estetyczna
+      pełnego łuku. <strong>Efekty leczenia są indywidualne</strong> i zależą od stanu wyjściowego;
+      każdy przypadek wymaga osobnej kwalifikacji i planu.
+    </p>
   </section>
 
   <section class="container prose">
@@ -97,4 +110,27 @@ import { site } from '../data/site';
   .case-figure { margin: 0; }
   .case-figure img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 24px rgba(58,39,51,0.12); display: block; }
   .case-figure figcaption { font-size: 0.8125rem; color: var(--color-muted); text-align: center; margin-top: 0.5rem; font-style: italic; }
+
+  .ba-heading { text-align: center; margin-bottom: 1.25rem; }
+  .beforeafter {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+    max-width: 760px; margin: 0 auto;
+  }
+  .beforeafter figure { position: relative; margin: 0; }
+  .beforeafter img {
+    width: 100%; height: auto; display: block; border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(58,39,51,0.12);
+  }
+  .ba-label {
+    position: absolute; top: 0.75rem; left: 0.75rem;
+    font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+    padding: 0.25rem 0.625rem; border-radius: 999px; color: #fff;
+  }
+  .ba-label--before { background: rgba(28,29,32,0.78); }
+  .ba-label--after { background: var(--color-accent, #b06a86); }
+  .ba-caption {
+    max-width: 760px; margin: 0.9rem auto 0; text-align: center;
+    font-size: 0.8125rem; color: var(--color-muted); font-style: italic; line-height: 1.6;
+  }
+  @media (max-width: 520px) { .beforeafter { grid-template-columns: 1fr; } }
 </style>
