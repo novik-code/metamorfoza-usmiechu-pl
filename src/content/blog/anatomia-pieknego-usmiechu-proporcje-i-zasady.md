@@ -1,7 +1,7 @@
 ---
 title: 'Anatomia pięknego uśmiechu — proporcje, linia uśmiechu i czego szuka oko'
 description: 'Co naprawdę sprawia, że uśmiech wygląda pięknie i naturalnie: proporcja złota, linia (łuk) uśmiechu, linia pośrodkowa, ekspozycja dziąseł, proporcje zębów, kolor. Merytoryczny przewodnik dr Marcina Nowosielskiego, M.Sc.'
-pubDate: 2026-06-01
+pubDate: 2026-05-05
 category: projekt-usmiechu-dsd
 tags: [anatomia-usmiechu, proporcja-zlota, linia-usmiechu, estetyka, dsd]
 draft: false
@@ -64,6 +64,6 @@ Piękny uśmiech to nie „najbielsze i najrówniejsze zęby", lecz **harmonia p
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — lekarz stomatolog, stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl) (Opole); pacjentów przyjmujemy z całej Polski.
 
 **Disclaimer:** Treści edukacyjne, nie zastępują konsultacji. Zasady estetyki dobiera się indywidualnie do twarzy pacjenta.

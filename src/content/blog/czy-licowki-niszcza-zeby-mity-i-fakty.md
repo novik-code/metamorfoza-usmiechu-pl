@@ -1,7 +1,7 @@
 ---
 title: 'Czy licówki niszczą zęby? Mity i fakty'
 description: 'Czy licówki niszczą zęby, czy „muszą” być na całe życie, czy to bardzo boli — najczęstsze mity o licówkach skonfrontowane z faktami. Oszczędność tkanek, odwracalność, trwałość. Przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-05-20
+pubDate: 2026-04-22
 category: pytania-i-watpliwosci
 tags: [licowki, mity, obawy, oszczednosc-tkanek]
 draft: false
@@ -48,6 +48,6 @@ Licówki **nie „niszczą" zębów** — przy prawidłowym wykonaniu są jednym
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — specjalista stomatologii estetycznej. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl) (Opole); pacjentów przyjmujemy z całej Polski.
 
 **Disclaimer:** Treści edukacyjne, nie zastępują konsultacji lekarskiej.

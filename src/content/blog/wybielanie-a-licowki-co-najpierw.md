@@ -1,7 +1,7 @@
 ---
 title: 'Wybielanie a licówki — co najpierw i dlaczego'
 description: 'Wybielać przed licówkami czy po? Dlaczego kolejność ma znaczenie, jak wybielanie ustala docelowy kolor i dlaczego licówek/koron nie da się wybielić. Praktyczny przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-05-24
+pubDate: 2026-04-26
 category: wybielanie
 tags: [wybielanie, licowki, kolejnosc, kolor]
 draft: false
@@ -49,6 +49,6 @@ Jeśli planujesz wybielanie i licówki — **wybielaj najpierw**, bo materiałó
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Pacjentów przyjmujemy z całej Polski.
 
 **Disclaimer:** Treści edukacyjne, nie zastępują konsultacji lekarskiej.

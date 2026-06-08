@@ -1,7 +1,7 @@
 ---
 title: 'Korony pełnoceramiczne — cyrkon vs ceramika szklana (e.max): którą wybrać'
 description: 'Korona z cyrkonu czy ceramiki szklanej (e.max / dwukrzemian litu)? Porównanie estetyki, wytrzymałości, wskazań (przód vs zęby boczne, mosty), oszczędności tkanek. Jak dobrać materiał korony. Metamorfoza uśmiechu.'
-pubDate: 2026-06-07
+pubDate: 2026-05-23
 category: korony-protetyka
 tags: [korony, cyrkon, emax, ceramika, protetyka]
 draft: false
@@ -61,6 +61,6 @@ Obie ceramiki przy dobrym wykonaniu i higienie służą **10-15 lat i więcej**.
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** [lek. dent. Marcin Nowosielski](/o-autorze), M.Sc. RWTH Aachen — lekarz stomatolog, stomatologia estetyczna.
 
 **Disclaimer:** Treści edukacyjne, nie zastępują konsultacji lekarskiej.

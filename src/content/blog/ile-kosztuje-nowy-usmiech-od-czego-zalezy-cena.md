@@ -1,7 +1,7 @@
 ---
 title: 'Ile kosztuje nowy uśmiech? Od czego zależy cena metamorfozy'
 description: 'Ile kosztuje metamorfoza uśmiechu — co składa się na cenę licówek, koron i wybielania, dlaczego oferty się różnią i o co pytać. Dlaczego najpierw projekt, potem wycena. Przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-06-03
+pubDate: 2026-05-12
 category: cena-i-koszt
 tags: [cena, koszt, licowki, makeover, wycena]
 draft: false
@@ -65,6 +65,6 @@ Cena metamorfozy zależy od **zakresu, metod i materiału** — dlatego „ile k
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatolog estetyczny — licówki, DSD. Pacjentów przyjmujemy z całej Polski.
 
 **Disclaimer:** Treści edukacyjne. Wiążąca wycena tylko po indywidualnej ocenie.

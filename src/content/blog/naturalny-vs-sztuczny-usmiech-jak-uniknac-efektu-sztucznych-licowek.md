@@ -1,7 +1,7 @@
 ---
 title: 'Naturalny vs „sztuczny" uśmiech — jak uniknąć efektu sztucznych licówek'
 description: 'Dlaczego niektóre licówki wyglądają sztucznie i jak uzyskać naturalny efekt: kolor i translucencja, proporcje, faktura, indywidualizacja, mock-up. Czego pytać przed leczeniem. dr Marcin Nowosielski, M.Sc.'
-pubDate: 2026-06-06
+pubDate: 2026-05-17
 category: metamorfozy
 tags: [naturalny-usmiech, licowki, translucencja, indywidualizacja, mock-up]
 draft: false
@@ -66,6 +66,6 @@ Sztuczny uśmiech to nie „wina licówek", lecz efekt konkretnych błędów: za
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie prowadzi w [klinice Mikrostomart](https://mikrostomart.pl), Opole.
 
 **Disclaimer:** Treści edukacyjne, nie zastępują konsultacji lekarskiej. Efekt zależy od indywidualnych uwarunkowań.

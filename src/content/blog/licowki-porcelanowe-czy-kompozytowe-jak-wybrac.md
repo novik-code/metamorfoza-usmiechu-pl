@@ -1,7 +1,7 @@
 ---
 title: 'Licówki porcelanowe czy kompozytowe — jak wybrać?'
 description: 'Licówki porcelanowe vs kompozytowe — różnice w trwałości, estetyce, cenie, liczbie wizyt i naprawie. Którą opcję wybrać i dla kogo lepsza. Przewodnik dr Marcina Nowosielskiego, M.Sc.'
-pubDate: 2026-05-16
+pubDate: 2026-04-15
 category: licowki
 tags: [licowki, porcelana, kompozyt, porownanie]
 draft: false
@@ -62,6 +62,6 @@ Porcelana to wybór na **estetykę i trwałość** (i pełny makeover), kompozyt
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — specjalista stomatologii estetycznej. Leczenie prowadzi w [klinice Mikrostomart](https://mikrostomart.pl), Opole.
 
 **Disclaimer:** Treści edukacyjne, nie zastępują konsultacji lekarskiej.

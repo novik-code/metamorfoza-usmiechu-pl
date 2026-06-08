@@ -1,7 +1,7 @@
 ---
 title: 'Gummy smile i asymetria dziąseł — jak korekta dziąseł zmienia uśmiech'
 description: 'Gummy smile (nadmiar dziąseł) i asymetria linii dziąseł — przyczyny i metody korekty: gingiwektomia, wydłużanie korony klinicznie, leczenie przyczynowe. Dlaczego czasem to dziąsła, nie zęby, psują uśmiech. Metamorfoza uśmiechu.'
-pubDate: 2026-06-08
+pubDate: 2026-05-29
 category: metamorfozy
 tags: [gummy-smile, dziasla, gingiwektomia, asymetria, estetyka]
 draft: false
@@ -68,6 +68,6 @@ Gummy smile i nierówna linia dziąseł potrafią „zepsuć" nawet ładne zęby
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** [lek. dent. Marcin Nowosielski](/o-autorze), M.Sc. RWTH Aachen — lekarz stomatolog, stomatologia estetyczna.
 
 **Disclaimer:** Treści edukacyjne, nie zastępują konsultacji lekarskiej. Metoda zależy od przyczyny i indywidualnej oceny.

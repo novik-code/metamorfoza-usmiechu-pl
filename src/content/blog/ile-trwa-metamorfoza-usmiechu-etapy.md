@@ -1,7 +1,7 @@
 ---
 title: 'Ile trwa metamorfoza uśmiechu? Etapy krok po kroku'
 description: 'Ile trwa metamorfoza uśmiechu — od konsultacji i projektu (DSD), przez wybielanie i licówki, po finalne dopasowanie. Realny harmonogram i co wpływa na czas. Przewodnik dr Nowosielskiego, M.Sc.'
-pubDate: 2026-05-12
+pubDate: 2026-04-10
 category: metamorfozy
 tags: [metamorfoza, etapy, czas, dsd, plan-leczenia]
 draft: false
@@ -55,6 +55,6 @@ Metamorfoza uśmiechu trwa od **jednej-dwóch wizyt** (wybielanie, pojedyncze li
 
 ---
 
-**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna. Leczenie w klinice [Mikrostomart](https://mikrostomart.pl); pacjentów przyjmujemy z całej Polski.
+**Autor:** lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — specjalista stomatologii estetycznej. Pacjentów przyjmujemy z całej Polski.
 
 **Disclaimer:** Treści edukacyjne. Zakres i czas leczenia zależą od indywidualnej oceny.
