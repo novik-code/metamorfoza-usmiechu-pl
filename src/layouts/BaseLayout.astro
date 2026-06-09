@@ -63,17 +63,17 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, site.url).toString
   <body>
     <a href="#main" class="skip-link">Przejdź do treści</a>
 
-    <header class="site-header">
+    <header class="mu-bar">
       <div class="container">
         <a href="/" class="brand">
-          <span class="brand-mark" aria-hidden="true">
+          <span class="mu-glyph" aria-hidden="true">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M4 9 C 4 6, 9 6, 12 8 C 15 6, 20 6, 20 9 C 20 14, 14 19, 12 20 C 10 19, 4 14, 4 9 Z" />
             </svg>
           </span>
           <div>
             <strong>Metamorfoza uśmiechu</strong>
-            <span class="brand-sub">Projekt nowego uśmiechu · dr M. Nowosielski M.Sc.</span>
+            <span class="mu-sub">Projekt nowego uśmiechu · dr M. Nowosielski M.Sc.</span>
           </div>
         </a>
         <nav aria-label="Główna nawigacja">
@@ -98,9 +98,9 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, site.url).toString
       <slot />
     </main>
 
-    <footer class="site-footer">
+    <footer class="mu-footer">
       <div class="container">
-        <div class="footer-grid">
+        <div class="mu-footrow">
           <div>
             <h3>Metamorfoza uśmiechu</h3>
             <p>
@@ -231,21 +231,21 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, site.url).toString
       .skip-link { position: absolute; left: -9999px; top: 0; background: var(--color-primary); color: white; padding: 0.5rem 1rem; z-index: 100; }
       .skip-link:focus { left: 0; }
 
-      .site-header {
+      .mu-bar {
         background: white; border-bottom: 2px solid var(--color-accent);
         position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 4px rgba(0,0,0,0.04);
       }
-      .site-header .container { display: flex; align-items: center; gap: 2rem; padding-top: 1rem; padding-bottom: 1rem; flex-wrap: wrap; }
+      .mu-bar .container { display: flex; align-items: center; gap: 2rem; padding-top: 1rem; padding-bottom: 1rem; flex-wrap: wrap; }
       .brand { text-decoration: none; color: var(--color-primary); display: flex; align-items: center; gap: 0.875rem; }
-      .brand-mark { background: var(--color-primary); color: var(--color-accent); width: 2.5rem; height: 2.5rem; display: flex; align-items: center; justify-content: center; border-radius: 50%; }
+      .mu-glyph { background: var(--color-primary); color: var(--color-accent); width: 2.5rem; height: 2.5rem; display: flex; align-items: center; justify-content: center; border-radius: 50%; }
       .brand strong { display: block; font-size: 1.0625rem; font-weight: 800; line-height: 1.2; color: var(--color-primary); }
-      .brand-sub { font-size: 0.75rem; color: var(--color-muted); }
+      .mu-sub { font-size: 0.75rem; color: var(--color-muted); }
 
-      .site-header nav { flex: 1; }
-      .site-header nav ul { display: flex; gap: 1.125rem; list-style: none; padding: 0; margin: 0; flex-wrap: wrap; }
-      .site-header nav a { text-decoration: none; color: var(--color-fg); font-size: 0.875rem; padding: 0.25rem 0; border-bottom: 2px solid transparent; font-weight: 500; }
-      .site-header nav a[aria-current="page"] { border-bottom-color: var(--color-accent); color: var(--color-primary); }
-      .site-header nav a:hover { color: var(--color-accent-dark); }
+      .mu-bar nav { flex: 1; }
+      .mu-bar nav ul { display: flex; gap: 1.125rem; list-style: none; padding: 0; margin: 0; flex-wrap: wrap; }
+      .mu-bar nav a { text-decoration: none; color: var(--color-fg); font-size: 0.875rem; padding: 0.25rem 0; border-bottom: 2px solid transparent; font-weight: 500; }
+      .mu-bar nav a[aria-current="page"] { border-bottom-color: var(--color-accent); color: var(--color-primary); }
+      .mu-bar nav a:hover { color: var(--color-accent-dark); }
 
       .btn-primary {
         display: inline-block; background: var(--color-accent); color: white !important;
@@ -263,28 +263,28 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, site.url).toString
 
       main { min-height: 60vh; padding: 2.5rem 0 5rem; }
 
-      .site-footer { background: var(--color-primary); color: #ded3d8; padding: 3rem 0 1.5rem; margin-top: 4rem; }
-      .site-footer h3 { color: var(--color-accent); font-size: 0.9375rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
-      .site-footer a { color: #f0e7ea; text-decoration: underline; text-underline-offset: 2px; }
-      .site-footer a:hover { color: var(--color-accent); }
-      .site-footer hr { border: none; border-top: 1px solid rgba(255,255,255,0.15); margin: 2rem 0 1.5rem; }
-      .footer-grid { display: grid; gap: 2.5rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-      .footer-grid ul { list-style: none; padding: 0; }
-      .footer-grid ul li { margin-bottom: 0.5rem; font-size: 0.9375rem; }
-      .footer-grid p { font-size: 0.9375rem; }
-      .footer-grid address { font-style: normal; font-size: 0.9375rem; line-height: 1.7; }
+      .mu-footer { background: var(--color-primary); color: #ded3d8; padding: 3rem 0 1.5rem; margin-top: 4rem; }
+      .mu-footer h3 { color: var(--color-accent); font-size: 0.9375rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+      .mu-footer a { color: #f0e7ea; text-decoration: underline; text-underline-offset: 2px; }
+      .mu-footer a:hover { color: var(--color-accent); }
+      .mu-footer hr { border: none; border-top: 1px solid rgba(255,255,255,0.15); margin: 2rem 0 1.5rem; }
+      .mu-footrow { display: grid; gap: 2.5rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+      .mu-footrow ul { list-style: none; padding: 0; }
+      .mu-footrow ul li { margin-bottom: 0.5rem; font-size: 0.9375rem; }
+      .mu-footrow p { font-size: 0.9375rem; }
+      .mu-footrow address { font-style: normal; font-size: 0.9375rem; line-height: 1.7; }
       .disclaimer { font-size: 0.8125rem; background: rgba(255,255,255,0.05); padding: 1rem; border-left: 3px solid var(--color-accent); margin: 1rem 0; }
       .copy { font-size: 0.75rem; color: #a5969c; text-align: center; margin: 0; }
 
       /* ---- wspólne style stron (hero / prose / cta / siatki) ---- */
-      .eyebrow { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8125rem; color: var(--color-accent-dark); margin: 0; font-weight: 700; }
-      .page-hero { background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light)); color: white; padding: 3.5rem 0 3rem; margin-bottom: 2.5rem; }
-      .page-hero h1 { color: white; margin-top: 0.5rem; }
-      .page-hero .eyebrow { color: var(--color-accent); }
-      .page-hero .lead { font-size: 1.1875rem; color: #efe6e9; max-width: 56rem; margin: 1rem 0 1.75rem; }
-      .page-hero .lead a { color: var(--color-accent); }
-      .page-hero .btn-outline { color: #fff !important; border-color: var(--color-accent); }
-      .page-hero .btn-outline:hover { background: var(--color-accent); color: #fff !important; }
+      .mu-overline { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8125rem; color: var(--color-accent-dark); margin: 0; font-weight: 700; }
+      .mu-masthead { background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light)); color: white; padding: 3.5rem 0 3rem; margin-bottom: 2.5rem; }
+      .mu-masthead h1 { color: white; margin-top: 0.5rem; }
+      .mu-masthead .mu-overline { color: var(--color-accent); }
+      .mu-masthead .lead { font-size: 1.1875rem; color: #efe6e9; max-width: 56rem; margin: 1rem 0 1.75rem; }
+      .mu-masthead .lead a { color: var(--color-accent); }
+      .mu-masthead .btn-outline { color: #fff !important; border-color: var(--color-accent); }
+      .mu-masthead .btn-outline:hover { background: var(--color-accent); color: #fff !important; }
       .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
 
       .prose { max-width: 50rem; }
@@ -294,32 +294,32 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, site.url).toString
 
       .callout { background: var(--color-card); border-left: 4px solid var(--color-accent); padding: 1.25rem 1.5rem; border-radius: 6px; margin: 1.75rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
 
-      .pillar-grid, .intro-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 1.5rem 0 2rem; }
-      .pillar { background: var(--color-card); padding: 1.5rem; border-radius: 6px; text-decoration: none; color: var(--color-fg); border: 1px solid var(--color-border); transition: all 0.2s; display: block; }
-      .pillar:hover { border-color: var(--color-accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-      .pillar-num { display: inline-block; font-size: 0.75rem; font-weight: 700; color: var(--color-accent-dark); letter-spacing: 0.1em; }
-      .pillar h3 { margin: 0.4rem 0 0.4rem; font-size: 1.0625rem; }
-      .pillar p { font-size: 0.9375rem; color: var(--color-muted); margin: 0; }
+      .mu-grid, .intro-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin: 1.5rem 0 2rem; }
+      .mu-panel { background: var(--color-card); padding: 1.5rem; border-radius: 6px; text-decoration: none; color: var(--color-fg); border: 1px solid var(--color-border); transition: all 0.2s; display: block; }
+      .mu-panel:hover { border-color: var(--color-accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+      .mu-gridnum { display: inline-block; font-size: 0.75rem; font-weight: 700; color: var(--color-accent-dark); letter-spacing: 0.1em; }
+      .mu-panel h3 { margin: 0.4rem 0 0.4rem; font-size: 1.0625rem; }
+      .mu-panel p { font-size: 0.9375rem; color: var(--color-muted); margin: 0; }
 
-      .cta-section { background: var(--color-primary); color: white; padding: 3rem 0; margin-top: 3.5rem; }
-      .cta-section h2 { color: white; margin-top: 0; }
-      .cta-section p { color: #efe6e9; max-width: 56rem; font-size: 1.0625rem; }
+      .mu-callout { background: var(--color-primary); color: white; padding: 3rem 0; margin-top: 3.5rem; }
+      .mu-callout h2 { color: white; margin-top: 0; }
+      .mu-callout p { color: #efe6e9; max-width: 56rem; font-size: 1.0625rem; }
 
-      .post-grid { list-style: none; padding: 0; display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-      .post-grid > li { background: var(--color-card); padding: 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
-      .post-grid h3 { margin: 0.5rem 0 0.75rem; font-size: 1.125rem; }
-      .post-grid h3 a { text-decoration: none; }
-      .post-meta { font-size: 0.75rem; color: var(--color-muted); text-transform: uppercase; letter-spacing: 0.06em; margin: 0; display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
-      .post-meta .category { color: var(--color-accent-dark); font-weight: 700; }
-      .section-header { display: flex; justify-content: space-between; align-items: baseline; margin: 2.5rem 0 1.25rem; flex-wrap: wrap; gap: 1rem; }
-      .section-header h2 { margin: 0; }
+      .mu-stream { list-style: none; padding: 0; display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+      .mu-stream > li { background: var(--color-card); padding: 1.5rem; border-radius: 6px; border-left: 3px solid var(--color-accent); box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+      .mu-stream h3 { margin: 0.5rem 0 0.75rem; font-size: 1.125rem; }
+      .mu-stream h3 a { text-decoration: none; }
+      .mu-streammeta { font-size: 0.75rem; color: var(--color-muted); text-transform: uppercase; letter-spacing: 0.06em; margin: 0; display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+      .mu-streammeta .category { color: var(--color-accent-dark); font-weight: 700; }
+      .mu-rowhead { display: flex; justify-content: space-between; align-items: baseline; margin: 2.5rem 0 1.25rem; flex-wrap: wrap; gap: 1rem; }
+      .mu-rowhead h2 { margin: 0; }
       .see-all { font-weight: 600; text-decoration: none; }
 
       @media (max-width: 768px) {
         h1 { font-size: 2rem; }
         h2 { font-size: 1.5rem; }
-        .site-header .container { gap: 1rem; }
-        .site-header nav ul { gap: 0.875rem; }
+        .mu-bar .container { gap: 1rem; }
+        .mu-bar nav ul { gap: 0.875rem; }
       }
     </style>
   </body>

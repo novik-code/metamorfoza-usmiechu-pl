@@ -11,9 +11,9 @@ const latestPosts = allPosts.slice(0, 4);
 ---
 
 <BaseLayout>
-  <section class="page-hero">
+  <section class="mu-masthead">
     <div class="container">
-      <p class="eyebrow">Metamorfoza uśmiechu · licówki · DSD · cała Polska</p>
+      <p class="mu-overline">Metamorfoza uśmiechu · licówki · DSD · cała Polska</p>
       <h1>Metamorfoza uśmiechu — Twój nowy, naturalny uśmiech</h1>
       <p class="lead">
         Przebarwione, starte, nierówne czy ukruszone zęby da się zmienić w
@@ -39,34 +39,34 @@ const latestPosts = allPosts.slice(0, 4);
 
   <section class="container">
     <h2>Jak zmieniamy uśmiech</h2>
-    <div class="pillar-grid">
-      <a href="/projekt-usmiechu-dsd" class="pillar">
-        <span class="pillar-num">01</span>
+    <div class="mu-grid">
+      <a href="/projekt-usmiechu-dsd" class="mu-panel">
+        <span class="mu-gridnum">01</span>
         <h3>Projekt uśmiechu (DSD)</h3>
         <p>Cyfrowy projekt i mock-up — zobacz i zaakceptuj nowy uśmiech, zanim sięgniemy po wiertło.</p>
       </a>
-      <a href="/licowki" class="pillar">
-        <span class="pillar-num">02</span>
+      <a href="/licowki" class="mu-panel">
+        <span class="mu-gridnum">02</span>
         <h3>Licówki</h3>
         <p>Cienkie, naturalne licówki porcelanowe i kompozytowe — kształt, kolor, harmonia.</p>
       </a>
-      <a href="/wybielanie" class="pillar">
-        <span class="pillar-num">03</span>
+      <a href="/wybielanie" class="mu-panel">
+        <span class="mu-gridnum">03</span>
         <h3>Wybielanie</h3>
         <p>Gabinetowe i nakładkowe — bezpiecznie, na zdrowych zębach, z trwałym efektem.</p>
       </a>
-      <a href="/metamorfozy" class="pillar">
-        <span class="pillar-num">04</span>
+      <a href="/metamorfozy" class="mu-panel">
+        <span class="mu-gridnum">04</span>
         <h3>Metamorfozy</h3>
         <p>Realne przemiany — co da się osiągnąć, jakimi metodami i w jakim czasie.</p>
       </a>
-      <a href="/cennik" class="pillar">
-        <span class="pillar-num">05</span>
+      <a href="/cennik" class="mu-panel">
+        <span class="mu-gridnum">05</span>
         <h3>Cennik</h3>
         <p>Od czego zależy koszt licówek, koron, wybielania i pełnego makeoveru.</p>
       </a>
-      <a href="/o-autorze" class="pillar">
-        <span class="pillar-num">06</span>
+      <a href="/o-autorze" class="mu-panel">
+        <span class="mu-gridnum">06</span>
         <h3>O autorze</h3>
         <p>lek. dent. Marcin Nowosielski, M.Sc. RWTH Aachen — stomatologia estetyczna.</p>
       </a>
@@ -84,15 +84,15 @@ const latestPosts = allPosts.slice(0, 4);
 
   {latestPosts.length > 0 && (
     <section class="container">
-      <header class="section-header">
+      <header class="mu-rowhead">
         <h2>Najnowsze artykuły</h2>
         <a class="see-all" href="/blog">Wszystkie →</a>
       </header>
-      <ul class="post-grid">
+      <ul class="mu-stream">
         {latestPosts.map((post) => (
           <li>
             <article>
-              <p class="post-meta">
+              <p class="mu-streammeta">
                 <span class="category">{categoryMeta[post.data.category].label}</span>
                 <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
               </p>
@@ -105,7 +105,7 @@ const latestPosts = allPosts.slice(0, 4);
     </section>
   )}
 
-  <section class="cta-section">
+  <section class="mu-callout">
     <div class="container">
       <h2>Bezpłatna konsultacja — zaprojektujmy Twój nowy uśmiech</h2>
       <p>
