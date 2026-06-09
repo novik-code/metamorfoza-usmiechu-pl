@@ -1,6 +1,52 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Faq from '../components/Faq.astro';
 import { site } from '../data/site';
+
+const faqItems = [
+  {
+    q: 'Ile kosztuje metamorfoza uśmiechu?',
+    a: 'Zależy od zakresu i metod: od pojedynczych licówek czy wybielania po pełny makeover na 8–10 licówkach lub koronach. Koszt obejmuje projekt uśmiechu (DSD), prace tymczasowe i docelowe oraz materiał (np. porcelana, cyrkon). Realny, indywidualny kosztorys przedstawiamy po badaniu — przed rozpoczęciem leczenia.',
+  },
+  {
+    q: 'Czy trzeba szlifować zęby pod licówki?',
+    a: 'Zakres szlifowania zależy od sytuacji i wybranej techniki — bywa minimalny, a w wybranych przypadkach możliwe są licówki o bardzo oszczędnym opracowaniu. O zakresie decyduje stan zębów i zaplanowany efekt; omawiamy go na etapie projektu uśmiechu.',
+  },
+  {
+    q: 'Czy licówki zniszczą moje zęby?',
+    a: 'Prawidłowo zaplanowane i wykonane licówki nie „niszczą” zębów — chronią je i poprawiają estetykę. Kluczowa jest właściwa kwalifikacja (stan zębów, dziąseł i zgryzu) oraz precyzja wykonania. Dlatego metamorfozę poprzedza dokładna analiza.',
+  },
+  {
+    q: 'Ile wytrzymują licówki porcelanowe?',
+    a: 'Przy dobrej higienie i regularnych kontrolach licówki porcelanowe służą zwykle wiele lat — często ponad 10. Żywotność skracają m.in. bruksizm (zgrzytanie), urazy i zaniedbania higieniczne; w razie potrzeby pojedynczą licówkę można wymienić.',
+  },
+  {
+    q: 'Porcelana czy kompozyt — co wybrać?',
+    a: 'Licówki kompozytowe są tańsze i szybsze, ale mniej trwałe i bardziej podatne na przebarwienia; porcelanowe (np. e.max) są trwalsze, stabilniejsze kolorystycznie i bardziej naturalne optycznie. Wybór zależy od oczekiwań, budżetu i stanu wyjściowego.',
+  },
+  {
+    q: 'Czy efekt wygląda naturalnie?',
+    a: 'Tak — celem jest uśmiech dopasowany do Twojej twarzy, a nie identyczne, oślepiająco białe „klocki”. Kształt, długość i kolor dobieramy indywidualnie, a cyfrowy projekt uśmiechu (DSD) i mock-up pozwalają zobaczyć efekt jeszcze przed leczeniem.',
+  },
+];
+
+const medicalSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalWebPage',
+  '@id': `${site.url}/metamorfozy#webpage`,
+  url: `${site.url}/metamorfozy`,
+  name: 'Metamorfoza uśmiechu — smile makeover',
+  inLanguage: 'pl-PL',
+  lastReviewed: '2026-06-01',
+  author: { '@id': site.author.canonicalId },
+  about: {
+    '@type': 'MedicalProcedure',
+    name: 'Metamorfoza uśmiechu (smile makeover)',
+    howPerformed:
+      'Kompleksowa zmiana estetyki zębów łącząca metody dobrane indywidualnie: cyfrowy projekt uśmiechu (DSD), licówki, korony pełnoceramiczne, wybielanie, czasem korekta dziąseł i leczenie wstępne.',
+    bodyLocation: 'Zęby przednie (strefa estetyczna)',
+  },
+};
 ---
 
 <BaseLayout
@@ -96,6 +142,10 @@ import { site } from '../data/site';
       indywidualny plan przedstawiamy po badaniu — wraz z <a href="/cennik">kosztem</a>.
     </p>
   </section>
+
+  <Faq items={faqItems} heading="Metamorfoza uśmiechu — najczęstsze pytania" />
+
+  <script type="application/ld+json" set:html={JSON.stringify(medicalSchema)} />
 
   <section class="cta-section">
     <div class="container">

@@ -1,6 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Faq from '../components/Faq.astro';
 import { site } from '../data/site';
+
+const faqItems = [
+  {
+    q: 'Ile kosztuje pełna metamorfoza uśmiechu?',
+    a: 'Zależy od zakresu: od pojedynczych licówek czy wybielania po pełny makeover na 8–10 licówkach lub koronach. Na cenę składają się projekt uśmiechu (DSD), prace tymczasowe i docelowe oraz materiał. Indywidualny kosztorys przedstawiamy po badaniu, wraz z wariantami.',
+  },
+  {
+    q: 'Od czego zależy cena?',
+    a: 'Od liczby zębów objętych leczeniem, wybranych metod (licówki, korony, wybielanie), materiału (kompozyt vs porcelana/cyrkon) oraz ewentualnego leczenia wstępnego (próchnica, dziąsła, zgryz). Dlatego realną wycenę podajemy po analizie, a nie „z cennika”.',
+  },
+  {
+    q: 'Czym różni się cena licówek porcelanowych od kompozytowych?',
+    a: 'Licówki kompozytowe są tańsze i wykonywane szybciej, ale mniej trwałe i bardziej podatne na przebarwienia. Porcelanowe (np. e.max) są droższe, ale trwalsze, stabilniejsze kolorystycznie i bardziej naturalne — w dłuższej perspektywie często korzystniejsze.',
+  },
+  {
+    q: 'Czy płatność można rozłożyć na raty?',
+    a: 'Tak — możliwe jest rozłożenie płatności / finansowanie. Warianty omawiamy indywidualnie podczas konsultacji, po ustaleniu planu metamorfozy.',
+  },
+];
 ---
 
 <BaseLayout
@@ -70,6 +90,8 @@ import { site } from '../data/site';
     <h2>Finansowanie</h2>
     <p>Możliwe rozłożenie płatności / raty — szczegóły omawiamy na konsultacji.</p>
   </section>
+
+  <Faq items={faqItems} heading="Cennik metamorfozy — najczęstsze pytania" />
 
   <section class="cta-section">
     <div class="container">
