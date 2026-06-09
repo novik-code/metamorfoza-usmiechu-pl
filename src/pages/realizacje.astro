@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../data/site';
+
+// 16 rzeczywistych metamorfoz wykonanych przez lek. dent. Marcina Nowosielskiego
+// (materiał z kliniki Mikrostomart, self-hostowany; zgody na publikację po stronie kliniki).
+const cases = Array.from({ length: 17 }, (_, i) => i + 1);
+---
+
+<BaseLayout
+  title="Realizacje — metamorfozy uśmiechu przed i po"
+  description="Galeria 16 rzeczywistych metamorfoz uśmiechu — efekty przed i po. Licówki, korony, kompleksowa odbudowa estetyczna. Prace lek. dent. Marcina Nowosielskiego, M.Sc. RWTH Aachen, klinika Mikrostomart."
+>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Realizacje · przed i po</p>
+      <h1>Metamorfozy uśmiechu — efekty przed i po</h1>
+      <p class="lead">
+        <strong>16 rzeczywistych metamorfoz</strong> wykonanych przez lek. dent. Marcina
+        Nowosielskiego, M.Sc. RWTH Aachen. Naturalne, harmonijne efekty — licówki, korony
+        pełnoceramiczne i kompleksowa odbudowa estetyczna. Zobacz, co realnie da się osiągnąć.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Zaprojektuj swój uśmiech →</a>
+        <a class="btn-outline" href="/metamorfozy">Jak przebiega metamorfoza →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="cases-grid">
+      {cases.map((n) => (
+        <figure class="ba-card">
+          <div class="beforeafter">
+            <div class="ba-item">
+              <span class="ba-label ba-label--before">Przed</span>
+              <img src={`/realizacje/metamorfoza-${n}-przed.webp`} alt={`Metamorfoza uśmiechu nr ${n} — stan przed leczeniem estetycznym`} loading="lazy" width="1000" height="1000" />
+            </div>
+            <div class="ba-item">
+              <span class="ba-label ba-label--after">Po</span>
+              <img src={`/realizacje/metamorfoza-${n}-po.webp`} alt={`Metamorfoza uśmiechu nr ${n} — efekt po leczeniu estetycznym`} loading="lazy" width="1000" height="1000" />
+            </div>
+          </div>
+          <figcaption>Realizacja nr {n} — odbudowa estetyki uśmiechu.</figcaption>
+        </figure>
+      ))}
+    </div>
+
+    <figure class="case-story">
+      <img src="/realizacje/historia-przypadkowa-wizyta.webp" alt="Historia pacjentki — pełna, wieloetapowa metamorfoza uśmiechu: stara protetyka, chirurgia, implantologia, odbudowa tymczasowa i rekonstrukcja ostateczna" loading="lazy" width="1080" height="1080" />
+      <figcaption>Historia pacjentki — pełna, wieloetapowa metamorfoza uśmiechu (chirurgia, implantologia, odbudowa na implantach).</figcaption>
+    </figure>
+
+    <p class="ba-disclaimer">
+      Wszystkie zdjęcia przedstawiają <strong>rzeczywistych pacjentów</strong> kliniki
+      <a href="https://mikrostomart.pl" rel="noopener">Mikrostomart</a> (publikacja za zgodą).
+      <strong>Efekty leczenia są indywidualne</strong> i zależą od stanu wyjściowego, wybranych
+      metod i materiałów; każdy przypadek wymaga osobnej kwalifikacji i planu.
+    </p>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Chcesz zobaczyć projekt swojego uśmiechu?</h2>
+      <p>
+        Prześlij zdjęcie uśmiechu lub umów wizytę — przygotujemy cyfrowy projekt (DSD)
+        i plan metamorfozy z wariantami i kosztem. Pacjentów przyjmujemy z całej Polski.
+      </p>
+      <a class="btn-primary" href={site.clinic.bookingUrl} rel="noopener">Umów bezpłatną konsultację →</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .cases-grid {
+    display: grid; gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .ba-card {
+    margin: 0; background: var(--color-card, #fff); border-radius: 10px;
+    padding: 0.75rem; box-shadow: 0 4px 16px rgba(58,39,51,0.08);
+    border: 1px solid var(--color-border, #e6dde2);
+  }
+  .beforeafter { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+  .ba-item { position: relative; }
+  .ba-item img { width: 100%; height: auto; display: block; border-radius: 6px; }
+  .ba-label {
+    position: absolute; top: 0.5rem; left: 0.5rem;
+    font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+    padding: 0.15rem 0.5rem; border-radius: 999px; color: #fff;
+  }
+  .ba-label--before { background: rgba(28,29,32,0.78); }
+  .ba-label--after { background: var(--color-accent, #b06a86); }
+  .ba-card figcaption {
+    font-size: 0.8125rem; color: var(--color-muted); text-align: center;
+    margin-top: 0.6rem; font-style: italic;
+  }
+  .case-story { margin: 2.5rem auto 0; max-width: 640px; }
+  .case-story img { width: 100%; height: auto; display: block; border-radius: 10px; box-shadow: 0 6px 24px rgba(58,39,51,0.12); }
+  .case-story figcaption { font-size: 0.8125rem; color: var(--color-muted); text-align: center; margin-top: 0.6rem; font-style: italic; }
+  .ba-disclaimer {
+    max-width: 760px; margin: 2rem auto 0; text-align: center;
+    font-size: 0.8125rem; color: var(--color-muted); line-height: 1.7;
+  }
+</style>

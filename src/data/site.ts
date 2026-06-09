@@ -74,6 +74,7 @@ export const site = {
 
 export const nav = [
   { label: 'Metamorfozy', href: '/metamorfozy' },
+  { label: 'Realizacje', href: '/realizacje' },
   { label: 'Licówki', href: '/licowki' },
   { label: 'Wybielanie', href: '/wybielanie' },
   { label: 'Projekt uśmiechu', href: '/projekt-usmiechu-dsd' },
