@@ -1,6 +1,6 @@
 ---
 title: 'Ile kosztuje nowy uśmiech? Od czego zależy cena metamorfozy'
-description: 'Ile kosztuje metamorfoza uśmiechu — co składa się na cenę licówek, koron i wybielania, dlaczego oferty się różnią i o co pytać. Dlaczego najpierw projekt, potem wycena. Przewodnik dr Nowosielskiego, M.Sc.'
+description: 'Ile kosztuje metamorfoza uśmiechu — co składa się na cenę licówek, koron i wybielania, dlaczego oferty się różnią i o co pytać. Dlaczego najpierw projekt, potem wycena. Przewodnik lek. dent. Nowosielskiego, M.Sc.'
 pubDate: 2026-05-12
 category: cena-i-koszt
 tags: [cena, koszt, licowki, makeover, wycena]

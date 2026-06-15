@@ -4,7 +4,7 @@
 
 export const site = {
   url: 'https://metamorfoza-usmiechu.pl',
-  title: 'Metamorfoza uśmiechu — licówki, projekt uśmiechu, nowy uśmiech | dr Marcin Nowosielski',
+  title: 'Metamorfoza uśmiechu — licówki, projekt uśmiechu, nowy uśmiech | lek. dent. Marcin Nowosielski',
   shortTitle: 'Metamorfoza uśmiechu',
   description:
     'Metamorfoza uśmiechu — kompletny przewodnik: licówki, korony, wybielanie i cyfrowy projekt uśmiechu (DSD). Naturalny, harmonijny nowy uśmiech. Sygnowane przez lek. dent. Marcina Nowosielskiego, M.Sc. RWTH Aachen. Leczenie w klinice Mikrostomart.',

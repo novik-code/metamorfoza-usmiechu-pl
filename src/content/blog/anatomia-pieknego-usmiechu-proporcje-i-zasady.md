@@ -1,6 +1,6 @@
 ---
 title: 'Anatomia pięknego uśmiechu — proporcje, linia uśmiechu i czego szuka oko'
-description: 'Co naprawdę sprawia, że uśmiech wygląda pięknie i naturalnie: proporcja złota, linia (łuk) uśmiechu, linia pośrodkowa, ekspozycja dziąseł, proporcje zębów, kolor. Merytoryczny przewodnik dr Marcina Nowosielskiego, M.Sc.'
+description: 'Co naprawdę sprawia, że uśmiech wygląda pięknie i naturalnie: proporcja złota, linia (łuk) uśmiechu, linia pośrodkowa, ekspozycja dziąseł, proporcje zębów, kolor. Merytoryczny przewodnik lek. dent. Marcina Nowosielskiego, M.Sc.'
 pubDate: 2026-05-05
 category: projekt-usmiechu-dsd
 tags: [anatomia-usmiechu, proporcja-zlota, linia-usmiechu, estetyka, dsd]
