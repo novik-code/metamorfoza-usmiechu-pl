@@ -21,7 +21,7 @@ const { posts, category } = Astro.props as {
 const meta = categoryMeta[category];
 ---
 
-<BaseLayout title={`${meta.label} — artykuły`} description={meta.description}>
+<BaseLayout noindex={true} title={`${meta.label} — artykuły`} description={meta.description}>
   <div class="container content">
     <nav class="breadcrumbs"><a href="/">Start</a> · <a href="/blog">Blog</a> · <span>{meta.label}</span></nav>
     <header>

@@ -10,7 +10,7 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/tag/'),
+      filter: (page) => !/\/(tag|kategoria|kategorie|category)\//.test(page),
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
